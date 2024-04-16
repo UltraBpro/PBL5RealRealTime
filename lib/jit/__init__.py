@@ -44,7 +44,7 @@ def to_jit_model(
 ):
     model = None
     if model_type.lower() == "synthesizer":
-        from .get_synthesizer import get_synthesizer
+        from lib.jit.get_synthesizer import get_synthesizer
 
         model, _ = get_synthesizer(model_path, device)
         model.forward = model.infer
@@ -147,7 +147,7 @@ def synthesizer_jit_export(
         save_path += ".half.jit" if is_half else ".jit"
     if "cuda" in str(device) and ":" not in str(device):
         device = torch.device("cuda:0")
-    from .get_synthesizer import get_synthesizer
+    from lib.jit.get_synthesizer import get_synthesizer
 
     model, cpt = get_synthesizer(model_path, device)
     assert isinstance(cpt, dict)

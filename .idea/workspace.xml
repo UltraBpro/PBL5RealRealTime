@@ -5,34 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9fe3df-9381-43bc-a628-0babfe41426c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PBL5RealRealTime.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestSimpleGUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hubert/hubert_base.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hubert/tu tai hubert_base ve day.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/rmvpe/rmvpe.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/rmvpe/tu tai rmvpe ve day.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui_v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jit/get_hubert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jit/get_rmvpe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jit/get_synthesizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmvpe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rvc_for_realtime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/torchgate/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/torchgate/torchgate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/torchgate/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Makima/MakimaV3.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Makima/added_IVF383_Flat_nprobe_1_Makima_V3.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Omen/Omen.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Omen/added_IVF600_Flat_nprobe_1_Omen_v2.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Yoru/YoruJP_e500_s6981.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Yoru/added_IVF364_Flat_nprobe_1_YoruJP_e500_s6981_v2.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/infer_pack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/infer_pack/attentions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/infer_pack/commons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/infer_pack/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/infer_pack/modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jit/get_synthesizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jit/get_synthesizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rvc_for_realtime.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rvc_for_realtime.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +42,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.get_synthesizer.executor": "Debug",
     "Python.gui_v1.executor": "Run",
     "Python.rmvpe.executor": "Run",
     "Python.torchgate.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/DaiHoc/PBL/PBL5RealRealTime/lib",
+    "last_opened_file_path": "D:/DaiHoc/PBL/PBL5RealRealTime/lib/infer_pack",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DaiHoc\PBL\PBL5RealRealTime\lib" />
+      <recent name="D:\DaiHoc\PBL\PBL5RealRealTime\lib\infer_pack" />
+      <recent name="D:\DaiHoc\PBL\PBL5RealRealTime\lib\jit" />
       <recent name="D:\DaiHoc\PBL\PBL5RealRealTime" />
+      <recent name="D:\DaiHoc\PBL\PBL5RealRealTime\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DaiHoc\PBL\PBL5RealRealTime\lib\infer_pack" />
+      <recent name="D:\DaiHoc\PBL\PBL5RealRealTime\lib\jit" />
     </key>
   </component>
   <component name="SharedIndexes">
