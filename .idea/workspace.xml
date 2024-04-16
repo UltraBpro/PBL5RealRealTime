@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9fe3df-9381-43bc-a628-0babfe41426c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/infer_pack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/infer_pack/attentions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/infer_pack/commons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/infer_pack/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/infer_pack/modules.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jit/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jit/get_synthesizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jit/get_synthesizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rvc_for_realtime.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rvc_for_realtime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui_v1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
