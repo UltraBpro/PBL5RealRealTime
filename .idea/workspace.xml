@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9fe3df-9381-43bc-a628-0babfe41426c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extract_f0_print.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extract_feature_print.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ffmpeg.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infer-web.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pretrained/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slicer2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/cmd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/data_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/mel_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/process_ckpt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_nsf_sim_cache_sid_load_pretrain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainset_preprocess_pipeline_print.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvr5_weights/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weights/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hubert/tu tai hubert_base ve day.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/rmvpe/tu tai rmvpe ve day.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/v1/32k.json" beforeDir="false" afterPath="$PROJECT_DIR$/configs/v1/32k.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/v1/40k.json" beforeDir="false" afterPath="$PROJECT_DIR$/configs/v1/40k.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/v1/48k.json" beforeDir="false" afterPath="$PROJECT_DIR$/configs/v1/48k.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rvc_for_realtime.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rvc_for_realtime.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +57,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Doctests in sounddevice.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.crawler.executor": "Run",
     "Python.get_synthesizer.executor": "Debug",
     "Python.gui_v1.executor": "Run",
+    "Python.infer-web.executor": "Run",
+    "Python.my_utils.executor": "Run",
     "Python.rmvpe.executor": "Run",
+    "Python.rvc_for_realtime.executor": "Run",
+    "Python.test_cuda.executor": "Run",
     "Python.torchgate.executor": "Run",
+    "Python.train_nsf_sim_cache_sid_load_pretrain.executor": "Run",
+    "Python.trainset_preprocess_pipeline_print.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/DaiHoc/PBL/PBL5RealRealTime/lib/infer_pack",
+    "last_opened_file_path": "D:/PBL5RealRealTime",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PBL5RealRealTime" />
+      <recent name="D:\PBL5RealRealTime\runtime" />
       <recent name="D:\DaiHoc\PBL\PBL5RealRealTime\lib\infer_pack" />
       <recent name="D:\DaiHoc\PBL\PBL5RealRealTime\lib\jit" />
       <recent name="D:\DaiHoc\PBL\PBL5RealRealTime" />
-      <recent name="D:\DaiHoc\PBL\PBL5RealRealTime\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\DaiHoc\PBL\PBL5RealRealTime\lib\infer_pack" />
@@ -65,6 +98,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\thien\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9f9fe3df-9381-43bc-a628-0babfe41426c" name="Changes" comment="" />
@@ -74,5 +110,15 @@
       <updated>1713208395455</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train/utils.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

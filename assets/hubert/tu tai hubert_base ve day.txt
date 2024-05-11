@@ -1,1 +1,0 @@
-https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/hubert_base.pt
